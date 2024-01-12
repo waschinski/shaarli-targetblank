@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             if (link.href.includes('shaare/') === false) {
                link.target = "_blank";
             }
-	}
+        }
     }
     const picwall = document.getElementById("picwall");
     if (picwall !== null) {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 if (link.href.includes('shaare/') === false) {
                     link.target = "_blank";
                 }
-	    }
-	}
+            }
+        }
     }
 });
